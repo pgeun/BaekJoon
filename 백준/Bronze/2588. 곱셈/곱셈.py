@@ -1,0 +1,5 @@
+a = input()
+b = input()
+a=int(a)
+b=int(b)
+print(a*(b%10), int(a*(b%100//10)), int(a*(b//100)), int(a*b), sep='\n')
